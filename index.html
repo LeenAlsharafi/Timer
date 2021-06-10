@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Clockworks</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1 id="title">Clockworks</h1>
+        <selection id="controls">
+            <div class="input-group">
+                <label for="minutes-input">Minutes</label> 
+                <input type="number" placeholder="0" max="300" min="0" id="minutes-input">
+            </div>
+            <div class="input-group">
+                <label for="seconds-input">Seconds</label> 
+                <input type="number" placeholder="0" max="59" min="0" id="seconds-input" >
+            </div>
+            <button id="start-button" onclick="startTimer()">Start</button>
+            <button id="stop-button" disabled onclick="stopTimer()">Stop</button>
+            <button id="pause-button" disabled onclick="pauseTimer()">Pause</button>
+
+        </selection>
+        <h2><span id="minutes">0</span>: <span id="seconds">00</span></h2>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

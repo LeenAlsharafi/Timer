@@ -1,0 +1,62 @@
+body , input , button{
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#title {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#controls {
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 20px;
+    
+    padding-bottom:  40px;
+    border-right: 1px solid #a9a9a9;
+}
+
+button {
+    padding: 12px 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+button:hover {
+    opacity: .7;
+}
+button:disabled {
+    opacity: .3;
+}
+label , input {
+    font-size: 40px;
+    color: rgba(0, 0, 0, .5);
+
+}
+input {
+display: inline-block;
+border: none;
+border-bottom: 1px solid #a9a9a9;
+width: 50%;
+outline: none;
+font-weight: 200;
+margin-left: 50px;
+margin-bottom: 20px;
+
+}
+h2 {
+    display: inline-block;
+    font-size: 200px;
+    font-weight: 200;
+    padding-left: 90px;
+    vertical-align: top;
+    margin: 0px 0;
+}
+input:disabled {
+    background-color: white;
+}
